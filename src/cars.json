@@ -23,14 +23,14 @@
         "drive": "4WD",
         "img": "/cars/dacia-duster.png",
         "brand": "Dacia",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Dacia Lodgy",
         "capacity": "1.5 л",
         "power": "85 л.с.",
         "price": "3 320 000",
-        "type": "Грузопассажирский",
+        "type": "Грузопассаж",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
@@ -62,53 +62,53 @@
         "drive": "FWD",
         "img": "/cars/renault-express.png",
         "brand": "Renault",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Renault Express Combi",
         "capacity": "1.6 л",
         "power": "110 л.с.",
         "price": "3 655 000",
-        "type": "Пассажирский",
+        "type": "Грузопассаж",
         "engine": "Бензин",
         "transmission": "МКПП",
         "drive": "FWD",
         "img": "/cars/renault-express-combi.png",
         "brand": "Renault",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Ford Transit Courier",
         "capacity": "1.5 л",
         "power": "100 л.с.",
         "price": "3 370 000",
-        "type": "Пассажирский",
+        "type": "Грузопассаж",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
         "img": "/cars/ford-transit-courier.png",
         "brand": "Ford",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Ford Transit Connect",
         "capacity": "1.5 л",
         "power": "100 л.с.",
         "price": "3 859 125",
-        "type": "Грузовой",
+        "type": "Грузопассаж",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
         "img": "/cars/ford-transit-connect.png",
         "brand": "Ford",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Ford New Tourneo Connect",
         "capacity": "1.5 л",
         "power": "100 л.с.",
         "price": "4 633 000",
-        "type": "Грузовой",
+        "type": "Грузопассаж",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
@@ -147,13 +147,13 @@
         "capacity": "2.0 л",
         "power": "150 л.с.",
         "price": "5 780 000",
-        "type": "Грузовой",
+        "type": "Грузопассаж",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
         "img": "/cars/renault-trafic.png",
         "brand": "Renault",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Renault Trafic Van Panel Extra",
@@ -179,7 +179,7 @@
         "drive": "FWD",
         "img": "/cars/renault-master.png",
         "brand": "Renault",
-        "status": "В пути"
+        "status": "На складе"
     }
     ,
     {
@@ -200,26 +200,26 @@
         "capacity": "1.5 л",
         "power": "120 л.с.",
         "price": "5 174 000",
-        "type": "Пассажирский",
+        "type": "Грузопассаж",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
         "img": "/cars/citroen-jumpy.png",
         "brand": "Citroen",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Opel Movano",
         "capacity": "2.2 л",
         "power": "140 л.с.",
         "price": "5 594 000",
-        "type": "Пассажирский",
+        "type": "Грузовой",
         "engine": "Дизель",
         "transmission": "МКПП",
         "drive": "FWD",
         "img": "/cars/opel-movano.png",
         "brand": "Opel",
-        "status": "В пути"
+        "status": "На складе"
     },
     {
         "name": "Fiat Ducato",
@@ -245,6 +245,6 @@
         "drive": "FWD",
         "img": "/cars/peugeot-boxer-van.png",
         "brand": "Peugeot",
-        "status": "В пути"
+        "status": "На складе"
     }
 ]

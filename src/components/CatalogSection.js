@@ -185,12 +185,12 @@ export default function CatalogSection() {
                         <button
                             className="flex flex-col gap-3 items-center"
                             onClick={() => {
-                                filterButton("type", "Грузопассажирский");
+                                filterButton("type", "Грузопассаж");
                             }}
                         >
                             <div className="h-8 w-24 bg-car-md bg-contain bg-center bg-no-repeat 1.5sm:w-16"></div>
                             <p className="text-sm font-semibold text-black sm:text-[8px]">
-                                ГРУЗОПАССАЖИРСКИЙ
+                                ГРУЗОПАССАЖ
                             </p>
                         </button>
                         <button
@@ -285,7 +285,7 @@ export default function CatalogSection() {
                                 title={typeFilter}
                                 options={[
                                     "Пассажирский",
-                                    "Грузопассажирский",
+                                    "Грузопассаж",
                                     "Грузовой",
                                 ]}
                                 setFunc={setTypeFilter}
