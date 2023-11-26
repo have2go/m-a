@@ -205,8 +205,8 @@ export default function CatalogSection() {
                             </p>
                         </button>
                     </div>
-                    <div className="flex justify-between 1.5xl:justify-center 1.5xl:flex-col 1.5xl:gap-4 gap-20 mx-auto">
-                        <div className="flex gap-20 1.5sm:gap-10 sm:gap-4 mx-auto">
+                    <div className="flex justify-between 1.5xl:justify-center 1.5xl:flex-col 1.5xl:gap-4 gap-20 2xl:gap-12 mx-auto">
+                        <div className="flex gap-20 2xl:gap-12 1.5xl:gap-20 1.5sm:gap-10 sm:gap-4 mx-auto">
                             <button
                                 className="h-20 w-20 md:h-16 md:w-16 sm:h-14 sm:w-14 bg-renault-logo bg-contain bg-center bg-no-repeat"
                                 onClick={() => {
