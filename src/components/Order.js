@@ -109,6 +109,19 @@ export default function Order({ popupCar, setIsPopupOpen }) {
                     }}
                     className="p-3 outline-[#2A609D] bg-white rounded-full text-black text-base border border-[#1E1E1E80]"
                 />
+                <div className="flex gap-3 items-center px-5 md:px-4 w-full 1.5sm:w-3/4 mx-auto">
+                        <input type="checkbox" required className="" />
+                        <span className="text-xs">
+                            Я согласен на {' '}
+                            <a
+                                href="https://disk.yandex.ru/i/Ot3fKip5cKg5_g"
+                                target="_blank"
+                                className="text-xs text-[#2A609D]"
+                            >
+                                обработку персональных данных
+                            </a>
+                        </span>
+                    </div>
                 <button
                     type="submit"
                     className={`${

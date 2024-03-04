@@ -40,9 +40,14 @@ export default function FormSection() {
     };
 
     return (
-        <section className="bg-[#EDF0F2] w-full pt-14 pb-28 scroll-mt-[84px] 1.5sm:pb-20" id="contact">
+        <section
+            className="bg-[#EDF0F2] w-full pt-14 pb-28 scroll-mt-[84px] 1.5sm:pb-20"
+            id="contact"
+        >
             <div className="max-w-[1500px] w-full mx-auto flex flex-col items-center 2xl:max-w-7xl 1.5xl:max-w-6xl xl:max-w-5xl lg:max-w-3xl md:max-w-xl 1.5sm:max-w-md">
-                <h2 className={`${signika.className} text-[42px] font-normal text-black mx-auto w-fit pb-14 md:text-3xl md:pb-8 1.5sm:text-2xl sm:text-xl`}>
+                <h2
+                    className={`${signika.className} text-[42px] font-normal text-black mx-auto w-fit pb-14 md:text-3xl md:pb-8 1.5sm:text-2xl sm:text-xl`}
+                >
                     Нужна помощь в подборе машины?
                 </h2>
                 <p className="text-lg font-normal text-black pb-14 md:pb-8 1.5sm:text-base sm:text-sm">
@@ -84,6 +89,19 @@ export default function FormSection() {
                             setPhone(e.target.value);
                         }}
                     />
+                    <div className="flex gap-3 items-center px-5 md:px-4 w-full 1.5sm:w-3/4 mx-auto">
+                        <input type="checkbox" required className="" />
+                        <span className="text-xs">
+                            Я согласен на {' '}
+                            <a
+                                href="https://disk.yandex.ru/i/Ot3fKip5cKg5_g"
+                                target="_blank"
+                                className="text-xs text-[#2A609D]"
+                            >
+                                обработку персональных данных
+                            </a>
+                        </span>
+                    </div>
                     <button
                         type="submit"
                         className={`${
